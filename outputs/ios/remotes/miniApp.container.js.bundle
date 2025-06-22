@@ -8670,7 +8670,7 @@ if ((__webpack_require__.initializeSharingData || __webpack_require__.initialize
 
 
 }),
-62397: (function (__unused_webpack_module, exports, __webpack_require__) {
+8791: (function (__unused_webpack_module, exports, __webpack_require__) {
 "use strict";
 
 __webpack_require__.d(exports, {
@@ -8916,7 +8916,7 @@ __webpack_require__.f.consumes = __webpack_require__.f.consumes || function() { 
 __webpack_require__.initializeExposesData = {
   moduleMap: {
   "./CtnMini": function() {
-return Promise.all(/*  | __federation_expose_CtnMini */ [__webpack_require__.e("webpack_sharing_consume_default_react_react"), __webpack_require__.e("webpack_sharing_consume_default_react-navigation_native_react-navigation_native"), __webpack_require__.e("__federation_expose_CtnMini")]).then(function() { return function() { return __webpack_require__(63911); }; });
+return Promise.all(/*  | __federation_expose_CtnMini */ [__webpack_require__.e("webpack_sharing_consume_default_react_react"), __webpack_require__.e("webpack_sharing_consume_default_react-navigation_native_react-navigation_native"), __webpack_require__.e("__federation_expose_CtnMini")]).then(function() { return function() { return __webpack_require__(50178); }; });
 },
 },
   shareScope: "default",
@@ -9022,7 +9022,7 @@ chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.pus
 // startup
 // Load entry module and return exports
 __webpack_require__(65262);
-var __webpack_exports__ = __webpack_require__(62397);
+var __webpack_exports__ = __webpack_require__(8791);
 miniApp = __webpack_exports__;
 })()
-;//# sourceMappingURL=miniApp.container.js.bundle.map?platform=ios/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiMjc1MDBjYjU3ODBlMzZmODQxNWU1MGZlNGNlYzRlMWNlNzY3OWE5NTlhYTAyZWU4NDY3YjczMjQzMmIxYmY0YiIsImlhdCI6MTc1MDU4MzcwOX0.K2Ygm8uSgGxcT4p10g8PwtXO5tOhx5rtehr9I3mR7UMghvf3Lv7kGd9OR-miO-Ku3xxcecOU9i79Ug0AP0agsfX0TZ2RBDOe-I6tXuyBaXOwzjfpSkYpqW9wwPx4Q_nRLzcoVsQyGWK87uZAiS1P4-XjELUSRcfIS66ID4xs2LUOqzXj49irAJJt5J755yJGMZCv3G-TUtFFZALmY0v9tccPq6GgOwWmQPi2gxjdQ89ilPU3HfW8IYSX22X36TKJtRkxYqG6Ql3gSpBywIy_sVQ8iE7KGRZCU_gC0hl7og_E2xjNBbbV978fNAj79gIEu5qL3bt0lbaU_3r6aQnttQ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+;//# sourceMappingURL=miniApp.container.js.bundle.map?platform=ios/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiMmM5OWE3OWY4Y2YyY2JkYWQ1NjQ2YmUxMjYxODY4ZTNlZGE0YjgwOGJjNGJhODdmOTI0YjRmMWNjYjFlMWYzNyIsImlhdCI6MTc1MDU4NTAxOH0.EON6RfCdo3mslndVfKXmrLo8WJ4Z5_2e1pcqGOoQUExZgNY5L6zB02PugyuE_kTHAVbGjXjOonEhkXiy60MLmaOXBxxv_fGEdYQ9-8-Se5NWv-KeWMcwSKjTS4_28ZAHrHpgu2c4wxgv9uZWdCtsICE7ePX6kVKY_daG6kJGbv2RHlhyYhQh7ZPJXMxoBniQzfTd-QuAXjCRTmH0sjFb3b6MImgb6CuhcJ8Ts-uhnuVBhCFqB30lywyHW0p8mz7mWQhqht2zXaFd8GeC5OQbb4WlOjUd7trmY9EAo3tdIILBKV7Ep6ixpl3mxARF4X0jchejoZ1a47OyS8YozW8h5A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

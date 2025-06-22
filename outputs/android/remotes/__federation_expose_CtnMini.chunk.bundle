@@ -142,43 +142,6 @@ var useAccountZutandStore = (0, _zustand.create)((set, get)=>_object_spread_prop
 
 
 }),
-63911: (function (__unused_webpack_module, exports, __webpack_require__) {
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-Object.defineProperty(exports, "default", ({
-    enumerable: true,
-    get: function() {
-        return _default;
-    }
-}));
-var _interop_require_default = __webpack_require__(66705);
-var _jsxruntime = __webpack_require__(70095);
-var _react = __webpack_require__(31399);
-var _nativestack = __webpack_require__(64684);
-var _native = __webpack_require__(25822);
-var _ = /*#__PURE__*/ _interop_require_default._(__webpack_require__(50178));
-var Stack = (0, _nativestack.createNativeStackNavigator)();
-var WrapNavigationRemote2 = ()=>{
-    (0, _react.useEffect)(()=>{
-        console.log('WrapNavigation container from remote');
-    }, []);
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_native.NavigationContainer, {
-        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
-            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
-                name: "MiniApp",
-                component: _.default,
-                options: {
-                    headerShown: false
-                }
-            })
-        })
-    });
-};
-var _default = WrapNavigationRemote2;
-
-
-}),
 19686: (function (__unused_webpack_module, exports, __webpack_require__) {
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -458,4 +421,4 @@ var _default = ServiceScreenMiniApp;
 
 }),
 
-}]);//# sourceMappingURL=__federation_expose_CtnMini.chunk.bundle.map?platform=android/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiYjJmN2QyY2ZiOGJmZWZhNmM1MzAwNTBkNzNiYWJhYzFmZWUzNWI1NTI0ZTQ0NDI1YzEwYjY0MjA5YjJmNDQxNiIsImlhdCI6MTc1MDU4MzcxMn0.Gah-b3luwyUz7hAA2JzQSmpaLWtGXyo12VObn8V_audQRjkqQKsOHbuAbF1fVjXnYpgPZayq6fa0hXUlHOW7p7iJ99CSAOr_9of42riXutMePhj1-vVqan4ZrZT2xl1w8gIOk-YAEi3VeQ3NvCkH0UQ2ps90BxPnCGgM82ByTDmXE2NDDK5NpfArAtiIjh6mkK3trKLLFBtRf_v2D544kTFZ166Bw7pDzyvoM49ortCOFh1ijBRxPVSM03eVDdDa3kyQz7vyz5sxHyeJK-Mvu9z_R50VGy6bu5QdQfU09GANhOXc726Cncm5IvtpJfVqpDrGrKR9itxL-m21bnpB0Q                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+}]);//# sourceMappingURL=__federation_expose_CtnMini.chunk.bundle.map?platform=android/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiZWIxOTVkNGQ3MjY3NmJiNzc0MDI3NWQyOWRiNzZlOTRiOWQyMzhlODY1Mzc1ZGQ0NDExMzdkYmNlZTFlNDhmMyIsImlhdCI6MTc1MDU4NTAzMH0.hj-wsiilOM-nqnRYayLismAHfzxrHiMNTXrc5muA4bwtOPjrtArs7L2R1FW3iiUcGKSsXDCqObn34Z-kJgAiHaYX-iOOmdEFWR7xYGronhO1D-CGvf0VhaqD7wK32vt0xQ8Lw6m9kKlygTgxYK1BQBVibWzh75fiZZoul_0duuK1pWjep_qWHaBj2wKtKRD29bv85ZkuGmRNyMtadMKWD53f_hwlWBXJOrzM8wr7nfxWQVN27HLE4y-HXpRR-6ijWK-A3osbfv6TpSTXuXzRqyCJiphQcafEluZBnQooFuKf7WcX6JwHGSRVzI77FY63_vGWGk2_R6b0fiW8ZNSwKQ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

@@ -125,10 +125,10 @@
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a93.chunk.bundle",
             "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-5c6982.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
@@ -293,6 +293,28 @@
       }
     },
     {
+      "id": "miniApp:zustand",
+      "name": "zustand",
+      "version": "5.0.5",
+      "singleton": true,
+      "requiredVersion": "5.0.5",
+      "assets": {
+        "js": {
+          "async": [
+            "node_modules_react_index_js.chunk.bundle"
+          ],
+          "sync": [
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "miniApp:@react-native/virtualized-lists",
       "name": "@react-native/virtualized-lists",
       "version": "*",
@@ -348,28 +370,6 @@
           ],
           "sync": [
             "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "miniApp:zustand",
-      "name": "zustand",
-      "version": "5.0.5",
-      "singleton": true,
-      "requiredVersion": "5.0.5",
-      "assets": {
-        "js": {
-          "async": [
-            "node_modules_react_index_js.chunk.bundle"
-          ],
-          "sync": [
-            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
-            "node_modules_zustand_index_js-_9e2a1.chunk.bundle"
           ]
         },
         "css": {
@@ -483,10 +483,10 @@
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a93.chunk.bundle",
             "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-5c6982.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
@@ -549,10 +549,10 @@
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a93.chunk.bundle",
             "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-5c6982.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
@@ -618,10 +618,10 @@
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a93.chunk.bundle",
             "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-5c6982.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
@@ -686,10 +686,10 @@
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a93.chunk.bundle",
             "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-5c6982.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
@@ -752,10 +752,10 @@
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a93.chunk.bundle",
             "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-5c6982.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
@@ -819,10 +819,10 @@
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a93.chunk.bundle",
             "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-5c6982.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
@@ -885,10 +885,10 @@
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a93.chunk.bundle",
             "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-5c6982.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
@@ -951,10 +951,10 @@
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a93.chunk.bundle",
             "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_andr-ab13a94.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-5c6982.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
