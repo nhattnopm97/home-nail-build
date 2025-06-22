@@ -1,0 +1,461 @@
+(self["webpackChunkminiApp"] = self["webpackChunkminiApp"] || []).push([["__federation_expose_CtnMini"], {
+83610: (function (__unused_webpack_module, exports) {
+"use strict";
+
+function _getRequireWildcardCache(nodeInterop) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function(nodeInterop) {
+        return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop);
+}
+function _interop_require_wildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || typeof obj !== "object" && typeof obj !== "function") return {
+        default: obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {
+        __proto__: null
+    };
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj){
+        if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+            var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+            if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+            else newObj[key] = obj[key];
+        }
+    }
+    newObj.default = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+exports._ = _interop_require_wildcard;
+
+
+}),
+83590: (function (__unused_webpack_module, exports) {
+"use strict";
+
+function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+    if (Object.getOwnPropertySymbols) {
+        var symbols = Object.getOwnPropertySymbols(object);
+        if (enumerableOnly) {
+            symbols = symbols.filter(function(sym) {
+                return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+            });
+        }
+        keys.push.apply(keys, symbols);
+    }
+    return keys;
+}
+function _object_spread_props(target, source) {
+    source = source != null ? source : {};
+    if (Object.getOwnPropertyDescriptors) Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    else {
+        ownKeys(Object(source)).forEach(function(key) {
+            Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+        });
+    }
+    return target;
+}
+exports._ = _object_spread_props;
+
+
+}),
+1361: (function (__unused_webpack_module, exports) {
+"use strict";
+/**
+ * @license React
+ * react-jsx-runtime.production.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ 
+var REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
+function jsxProd(type, config, maybeKey) {
+    var key = null;
+    void 0 !== maybeKey && (key = "" + maybeKey);
+    void 0 !== config.key && (key = "" + config.key);
+    if ("key" in config) {
+        maybeKey = {};
+        for(var propName in config)"key" !== propName && (maybeKey[propName] = config[propName]);
+    } else maybeKey = config;
+    config = maybeKey.ref;
+    return {
+        $$typeof: REACT_ELEMENT_TYPE,
+        type: type,
+        key: key,
+        ref: void 0 !== config ? config : null,
+        props: maybeKey
+    };
+}
+exports.Fragment = REACT_FRAGMENT_TYPE;
+exports.jsx = jsxProd;
+exports.jsxs = jsxProd;
+
+
+}),
+70095: (function (module, __unused_webpack_exports, __webpack_require__) {
+"use strict";
+
+if (true) {
+    module.exports = __webpack_require__(1361);
+} else {}
+
+
+}),
+20881: (function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "useAccountZutandStore", ({
+    enumerable: true,
+    get: function() {
+        return useAccountZutandStore;
+    }
+}));
+var _object_spread = __webpack_require__(36192);
+var _object_spread_props = __webpack_require__(83590);
+var _zustand = __webpack_require__(60251);
+var initialSettingState = {
+    isLogin: false,
+    dataAccount: {}
+};
+var useAccountZutandStore = (0, _zustand.create)((set, get)=>_object_spread_props._(_object_spread._({}, initialSettingState), {
+        setDataAccount: (dataAccount)=>{
+            set({
+                dataAccount
+            });
+        },
+        setIsLogin: (isLogin)=>{
+            set({
+                isLogin
+            });
+        }
+    }));
+
+
+}),
+63911: (function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(66705);
+var _jsxruntime = __webpack_require__(70095);
+var _react = __webpack_require__(31399);
+var _nativestack = __webpack_require__(64684);
+var _native = __webpack_require__(25822);
+var _ = /*#__PURE__*/ _interop_require_default._(__webpack_require__(50178));
+var Stack = (0, _nativestack.createNativeStackNavigator)();
+var WrapNavigationRemote2 = ()=>{
+    (0, _react.useEffect)(()=>{
+        console.log('WrapNavigation container from remote');
+    }, []);
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_native.NavigationContainer, {
+        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
+            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+                name: "MiniApp",
+                component: _.default,
+                options: {
+                    headerShown: false
+                }
+            })
+        })
+    });
+};
+var _default = WrapNavigationRemote2;
+
+
+}),
+19686: (function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(66705);
+var _jsxruntime = __webpack_require__(70095);
+var _nativestack = __webpack_require__(64684);
+var _home = /*#__PURE__*/ _interop_require_default._(__webpack_require__(48268));
+var _ServiceScreen = /*#__PURE__*/ _interop_require_default._(__webpack_require__(76305));
+var Stack = (0, _nativestack.createNativeStackNavigator)();
+var AuthorizedNavigation = ()=>{
+    return /*#__PURE__*/ (0, _jsxruntime.jsxs)(Stack.Navigator, {
+        initialRouteName: "Home",
+        children: [
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+                name: "Home",
+                component: _home.default
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+                name: "Service",
+                component: _ServiceScreen.default
+            })
+        ]
+    });
+};
+var _default = AuthorizedNavigation;
+
+
+}),
+50178: (function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(66705);
+var _jsxruntime = __webpack_require__(70095);
+var _react = __webpack_require__(31399);
+var _nativestack = __webpack_require__(64684);
+var _wrapauthunauth = /*#__PURE__*/ _interop_require_default._(__webpack_require__(13217));
+var Stack = (0, _nativestack.createNativeStackNavigator)();
+var WrapNavigationRemote = ()=>{
+    (0, _react.useEffect)(()=>{
+        console.log('WrapNavigatio from remote');
+    }, []);
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
+        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+            name: "wrap-auth-unauth",
+            component: _wrapauthunauth.default,
+            options: {
+                headerShown: false
+            }
+        })
+    });
+};
+var _default = WrapNavigationRemote;
+
+
+}),
+53127: (function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(66705);
+var _jsxruntime = __webpack_require__(70095);
+var _nativestack = __webpack_require__(64684);
+var _login = /*#__PURE__*/ _interop_require_default._(__webpack_require__(89977));
+var Stack = (0, _nativestack.createNativeStackNavigator)();
+var UnAuthorizedNavigation = ()=>{
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
+        initialRouteName: "Login",
+        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+            name: "Login",
+            component: _login.default
+        })
+    });
+};
+var _default = UnAuthorizedNavigation;
+
+
+}),
+13217: (function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(66705);
+var _jsxruntime = __webpack_require__(70095);
+var _accountZustandStore = __webpack_require__(20881);
+var _authnavigation = /*#__PURE__*/ _interop_require_default._(__webpack_require__(19686));
+var _unauthnavigation = /*#__PURE__*/ _interop_require_default._(__webpack_require__(53127));
+var WrapAuthAndUnAuthNavigator = ()=>{
+    var isLogin = (0, _accountZustandStore.useAccountZutandStore)().isLogin;
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_jsxruntime.Fragment, {
+        children: isLogin ? /*#__PURE__*/ (0, _jsxruntime.jsx)(_authnavigation.default, {}) : /*#__PURE__*/ (0, _jsxruntime.jsx)(_unauthnavigation.default, {})
+    });
+};
+var _default = WrapAuthAndUnAuthNavigator;
+
+
+}),
+48268: (function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _jsxruntime = __webpack_require__(70095);
+var _native = __webpack_require__(25822);
+var _reactnative = __webpack_require__(3345);
+var _accountZustandStore = __webpack_require__(20881);
+var HomeScreenMiniApp = ()=>{
+    var setIsLogin = (0, _accountZustandStore.useAccountZutandStore)().setIsLogin;
+    var navigation = (0, _native.useNavigation)();
+    var handleLogout = ()=>{
+        setIsLogin(false);
+    };
+    return /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.View, {
+        style: {
+            flex: 1,
+            alignItems: 'center',
+            justifyContent: 'center'
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                style: {
+                    textAlign: 'center'
+                },
+                children: "Home Screen"
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Button, {
+                title: "Sang service ",
+                onPress: ()=>navigation.navigate('Service')
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Button, {
+                title: "\u0110\u0103ng xu\u1EA5t",
+                onPress: handleLogout
+            })
+        ]
+    });
+};
+var _default = HomeScreenMiniApp;
+
+
+}),
+89977: (function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_wildcard = __webpack_require__(83610);
+var _jsxruntime = __webpack_require__(70095);
+var _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(31399));
+var _reactnative = __webpack_require__(3345);
+var _accountZustandStore = __webpack_require__(20881);
+var LoginScreen = ()=>{
+    var setIsLogin = (0, _accountZustandStore.useAccountZutandStore)().setIsLogin;
+    (0, _react.useEffect)(()=>{
+        console.log('LoginScreen');
+    }, []);
+    var handleLogin = ()=>{
+        //goi api login
+        //nếu login thành công thì set isLogin = true
+        setIsLogin(true);
+    };
+    return /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.View, {
+        style: {
+            flex: 1,
+            justifyContent: 'center',
+            alignItems: 'center'
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                children: "LoginScreen"
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Button, {
+                title: "\u0110\u0103ng nh\u1EADp",
+                onPress: handleLogin
+            })
+        ]
+    });
+};
+var _default = LoginScreen;
+
+
+}),
+76305: (function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _jsxruntime = __webpack_require__(70095);
+var _native = __webpack_require__(25822);
+var _reactnative = __webpack_require__(3345);
+var _accountZustandStore = __webpack_require__(20881);
+var ServiceScreenMiniApp = ()=>{
+    var setIsLogin = (0, _accountZustandStore.useAccountZutandStore)().setIsLogin;
+    var navigation = (0, _native.useNavigation)();
+    var handleLogout = ()=>{
+        setIsLogin(false);
+    };
+    return /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.View, {
+        style: {
+            flex: 1,
+            alignItems: 'center',
+            justifyContent: 'center'
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                style: {
+                    textAlign: 'center'
+                },
+                children: "Service Screen"
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Button, {
+                title: "sang home",
+                onPress: ()=>navigation.navigate('Home')
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Button, {
+                onPress: ()=>navigation.goBack(),
+                title: "Go back"
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Button, {
+                onPress: ()=>navigation.popTo('Home'),
+                title: "Go to Home"
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Button, {
+                title: "Go back to first screen in stack",
+                onPress: ()=>{
+                    navigation.popToTop();
+                }
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Button, {
+                title: "\u0110\u0103ng xu\u1EA5t",
+                onPress: handleLogout
+            })
+        ]
+    });
+};
+var _default = ServiceScreenMiniApp;
+
+
+}),
+
+}]);//# sourceMappingURL=__federation_expose_CtnMini.chunk.bundle.map?platform=ios/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiMmU1MDIwOTc2MGUwODI3ODgxMTg2YmUwYzM0OTEwOWZjOTM1OWFjNzYxNjJjYTc1ZGUxYmQ0ZmQ2YTBlMzYxYSIsImlhdCI6MTc1MDU4MzcwOX0.AgkDwHYdva0J27Ej4SUNburkl352nTEXU8yaxX-Pr5jH-okCivJ5jdyOYZXyugB_qzKRZoGVdK8SljxSgSfGHiwUFMhbq2CjlFRTzUO8zNPtsGnKFJNY8v_OEQvJatiwSDvABpTc7EZBR4jJlSrQWNYMyomwBf0Xw-BefRFvoXjuDzyvJAb3YQ2lRUJYzFLScrBqPhxVuW_wWx_2mntT7r5YUygWJ9h_pfr9Hi2WYTAxEG9ANukjf4g-1_Xx98Yv-MLwkgs3TUoLb9WeeBJfHGjDTY92gk1BqceWSfqdCrWGaoHyE8Au3SMoMMRA8NFPGi2COc2UsyUIXJOFLTH7LQ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

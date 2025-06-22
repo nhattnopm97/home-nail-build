@@ -42,7 +42,10 @@
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
-            "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle"
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
+            "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle"
           ],
           "sync": [
             "vendors-node_modules_react-native_index_js.chunk.bundle"
@@ -53,9 +56,7 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./Login"
-      ]
+      "usedIn": []
     },
     {
       "id": "miniApp:react-native/Libraries/Image/AssetRegistry",
@@ -91,8 +92,8 @@
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_index_js.chunk.bundle",
@@ -102,19 +103,37 @@
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
             "node_modules_react_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
             "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7660.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
             "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-a42dd8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1900.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
             "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
-            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1901.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7661.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979293.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979294.chunk.bundle",
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle"
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
             "index.bundle",
@@ -149,7 +168,115 @@
         }
       },
       "usedIn": [
-        "./Login"
+        "./CtnMini"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "5.3.0",
+      "shareScope": "default",
+      "eager": false,
+      "name": "react-native-safe-area-context",
+      "version": "5.3.0",
+      "id": "miniApp:react-native-safe-area-context",
+      "assets": {
+        "js": {
+          "async": [
+            "vendors-node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
+            "node_modules_react_index_js.chunk.bundle"
+          ],
+          "sync": [
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "7.0.14",
+      "shareScope": "default",
+      "eager": false,
+      "name": "@react-navigation/native",
+      "version": "7.0.14",
+      "id": "miniApp:@react-navigation/native",
+      "assets": {
+        "js": {
+          "async": [
+            "node_modules_react_index_js.chunk.bundle"
+          ],
+          "sync": [
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./CtnMini"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "7.2.0",
+      "shareScope": "default",
+      "eager": false,
+      "name": "@react-navigation/native-stack",
+      "version": "7.2.0",
+      "id": "miniApp:@react-navigation/native-stack",
+      "assets": {
+        "js": {
+          "async": [
+            "vendors-node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
+            "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
+            "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_react_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle"
+          ],
+          "sync": [
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./CtnMini"
       ]
     },
     {
@@ -258,45 +385,62 @@
       "usedIn": []
     },
     {
-      "id": "miniApp:react-native/Libraries/NativeComponent/NativeComponentRegistry",
-      "requiredVersion": "^*",
-      "name": "react-native/Libraries/NativeComponent/NativeComponentRegistry",
-      "version": "*",
+      "singleton": true,
+      "requiredVersion": "5.0.5",
+      "shareScope": "default",
+      "eager": false,
+      "name": "zustand",
+      "version": "5.0.5",
+      "id": "miniApp:zustand",
       "assets": {
         "js": {
           "async": [
+            "node_modules_react_index_js.chunk.bundle"
+          ],
+          "sync": [
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "4.10.0",
+      "shareScope": "default",
+      "eager": false,
+      "name": "react-native-screens",
+      "version": "4.10.0",
+      "id": "miniApp:react-native-screens",
+      "assets": {
+        "js": {
+          "async": [
+            "node_modules_react_index_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
-            "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
-            "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
-            "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
-            "vendors-node_modules_react-native_index_js.chunk.bundle",
-            "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
             "node_modules_react-native_normalize-colors_index_js.chunk.bundle",
             "node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
+            "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
-            "node_modules_react_index_js.chunk.bundle",
-            "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle",
-            "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
-            "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
-            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
-            "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
-            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle"
+            "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle"
           ],
           "sync": [
-            "index.bundle",
-            "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle"
           ]
         },
         "css": {
@@ -326,9 +470,9 @@
       "usedIn": []
     },
     {
-      "id": "miniApp:react-native/Libraries/NativeComponent/ViewConfigIgnore",
+      "id": "miniApp:react-native/Libraries/NativeComponent/NativeComponentRegistry",
       "requiredVersion": "^*",
-      "name": "react-native/Libraries/NativeComponent/ViewConfigIgnore",
+      "name": "react-native/Libraries/NativeComponent/NativeComponentRegistry",
       "version": "*",
       "assets": {
         "js": {
@@ -337,8 +481,8 @@
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_index_js.chunk.bundle",
@@ -348,23 +492,40 @@
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
             "node_modules_react_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
             "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7660.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
             "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-a42dd8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1900.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
             "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
-            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1901.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7661.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979293.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979294.chunk.bundle",
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle"
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
             "index.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
           ]
         },
@@ -387,8 +548,8 @@
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_index_js.chunk.bundle",
@@ -398,25 +559,113 @@
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
             "node_modules_react_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
             "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7660.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
             "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-a42dd8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1900.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
             "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
-            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1901.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7661.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979293.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979294.chunk.bundle",
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle"
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
             "index.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "id": "miniApp:react-native/Libraries/NativeComponent/ViewConfigIgnore",
+      "requiredVersion": "^*",
+      "name": "react-native/Libraries/NativeComponent/ViewConfigIgnore",
+      "version": "*",
+      "assets": {
+        "js": {
+          "async": [
+            "vendors-node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
+            "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
+            "vendors-node_modules_react-native_index_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
+            "node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
+            "node_modules_react_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
+            "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7660.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
+            "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-a42dd8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1900.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
+            "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1901.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7661.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979293.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
+            "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979294.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
+          ],
+          "sync": [
+            "index.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
           ]
         },
         "css": {
@@ -438,8 +687,8 @@
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_index_js.chunk.bundle",
@@ -449,19 +698,37 @@
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
             "node_modules_react_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
             "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7660.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
             "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-a42dd8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1900.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
             "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
-            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1901.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7661.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979293.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979294.chunk.bundle",
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle"
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
             "index.bundle",
@@ -487,8 +754,8 @@
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_index_js.chunk.bundle",
@@ -498,19 +765,37 @@
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
             "node_modules_react_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
             "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7660.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
             "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-a42dd8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1900.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
             "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
-            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1901.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7661.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979293.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979294.chunk.bundle",
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle"
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
             "index.bundle",
@@ -537,8 +822,8 @@
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_index_js.chunk.bundle",
@@ -548,19 +833,37 @@
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
             "node_modules_react_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
             "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7660.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
             "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-a42dd8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1900.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
             "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
-            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1901.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7661.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979293.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979294.chunk.bundle",
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle"
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
             "index.bundle",
@@ -586,8 +889,8 @@
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_index_js.chunk.bundle",
@@ -597,19 +900,37 @@
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
             "node_modules_react_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
             "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7660.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
             "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-a42dd8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1900.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
             "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
-            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1901.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7661.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979293.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979294.chunk.bundle",
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle"
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
             "index.bundle",
@@ -635,8 +956,8 @@
             "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
-            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
             "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
             "vendors-node_modules_react-native_index_js.chunk.bundle",
@@ -646,19 +967,37 @@
             "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
             "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
             "node_modules_react_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
             "vendors-node_modules_react-native_node_modules_react-native_virtualized-lists_index_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
             "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24550.chunk.bundle",
-            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7660.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b461.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade1.chunk.bundle",
             "node_modules_swc_helpers_cjs__get_cjs-node_modules_swc_helpers_cjs__interop_require_wildcard_-d69ae8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-a42dd8.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1900.chunk.bundle",
             "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_processColor-e86ee6.chunk.bundle",
             "node_modules_callstack_repack_dist_modules_EmptyModule_js.chunk.bundle",
-            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-991c8a.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-29f1901.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-15d7661.chunk.bundle",
+            "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_cjs__obje-23e9b4.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979293.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a1.chunk.bundle",
             "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_invariant_browser_js-node_-2d8b79.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d1.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979294.chunk.bundle",
             "node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_invariant_browser_js.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
-            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-38fd34.chunk.bundle"
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_24551.chunk.bundle"
           ],
           "sync": [
             "index.bundle",
@@ -676,21 +1015,46 @@
   "remotes": [],
   "exposes": [
     {
-      "path": "./Login",
-      "id": "miniApp:Login",
-      "name": "Login",
+      "path": "./CtnMini",
+      "id": "miniApp:CtnMini",
+      "name": "CtnMini",
       "requires": [
-        "react-native",
-        "react"
+        "react",
+        "@react-navigation/native",
+        "@react-navigation/native-stack"
       ],
-      "file": "src/screen/login/index.tsx",
+      "file": "src/navigation/NavigationHaveNavigationContainer.tsx",
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_Login.chunk.bundle"
+            "__federation_expose_CtnMini.chunk.bundle"
           ],
           "async": [
-            "node_modules_react_index_js.chunk.bundle"
+            "node_modules_react_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_TurboModule_TurboModuleRegistry_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979290.chunk.bundle",
+            "node_modules_react-native_assets-registry_path-support_js.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_4b460.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979291.chunk.bundle",
+            "node_modules_react-native_normalize-colors_index_js.chunk.bundle",
+            "node_modules_react-native_assets-registry_registry_js.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_NativeComponent_ViewCon-a0528d0.chunk.bundle",
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_StyleSheet_PlatformColo-5bbade0.chunk.bundle",
+            "vendors-node_modules_invariant_browser_js-node_modules_react-native_Libraries_ReactNative_Ren-2c5665.chunk.bundle",
+            "vendors-node_modules_react-native_src_private_featureflags_ReactNativeFeatureFlags_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_AccessibilityInfo_legacySendAccessibil-834983.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInterface_js.chunk.bundle",
+            "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactNative_AppContainer_js.chunk.bundle",
+            "node_modules_react-native_Libraries_StyleSheet_flattenStyle_js-node_modules_react-native_Libr-766b16.chunk.bundle",
+            "node_modules_invariant_browser_js-node_modules_react-native_Libraries_Utilities_Platform_ios_-6979292.chunk.bundle",
+            "node_modules_zustand_index_js-_9e2a0.chunk.bundle"
           ]
         },
         "css": {
