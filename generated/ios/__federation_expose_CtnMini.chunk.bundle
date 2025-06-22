@@ -188,12 +188,24 @@ Object.defineProperty(exports, "default", ({
     }
 }));
 var _interop_require_default = __webpack_require__(66705);
+var _interop_require_wildcard = __webpack_require__(83610);
 var _jsxruntime = __webpack_require__(70095);
-var _react = __webpack_require__(31399);
+var _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(31399));
 var _nativestack = __webpack_require__(64684);
 var _wrapauthunauth = /*#__PURE__*/ _interop_require_default._(__webpack_require__(13217));
 var Stack = (0, _nativestack.createNativeStackNavigator)();
 var WrapNavigationRemote = ()=>{
+    (0, _react.useEffect)(()=>{
+        var miniAppReact = _react.default;
+        var hostReact = globalThis.hostReact;
+        console.log('MINI APP REACT INSTANCE:', miniAppReact.version);
+        if (hostReact) {
+            console.log("--- KI\u1EC2M TRA SO S\xc1NH ---");
+            console.log("React c\u1EE7a Host v\xe0 Mini c\xf3 ph\u1EA3i l\xe0 m\u1ED9t kh\xf4ng?", hostReact === miniAppReact);
+        } else {
+            console.warn("Kh\xf4ng t\xecm th\u1EA5y hostReact tr\xean global scope!");
+        }
+    }, []);
     (0, _react.useEffect)(()=>{
         console.log('WrapNavigatio from remote');
     }, []);
@@ -421,4 +433,4 @@ var _default = ServiceScreenMiniApp;
 
 }),
 
-}]);//# sourceMappingURL=__federation_expose_CtnMini.chunk.bundle.map?platform=ios/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiZWMzOTkxMjU2ZTQ4ZDZiNzM2M2ZhMGQzMzUyMzhhODUyZjNkNjUyNjRkNTFjM2Y0ZjA5YTY2YWJlYjZlMzY0ZCIsImlhdCI6MTc1MDU4NzQ2OH0.QKhQO_7tGezVMq39aZuK7k3Md95A5IG90nb9szgl3DcQH-izQF0EhrfiUq1T9DLSNrXcnP1lc8YQfM9-kFumrhwMkujDln6AZ0IK6mRvXsP14IJzsUoD3I_0QVbLEe8PHlK4hf1QcDGpkmBV42KDhLm8njpGe4X2sS-RtpNafJxVBmwwBE-vZ-IhNU21M7kz-7C-B2tK45zNdqsHANDXrKTzCFrizJjTtHzwBnMEbykbBcSm9u-WqhTp61dpzuzcrePVUhFnz8KciFvRzy8qAyiLGsqctrsSAG9N72OfCzNb9XvoqkLNUV_urfNSbUm--qWfQorocsyM95Z-qpA2KQ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+}]);//# sourceMappingURL=__federation_expose_CtnMini.chunk.bundle.map?platform=ios/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiYjM5M2RhZmVmYmIwZjZmY2M4ZjU0YTI5YjkyYTZjNDcxMGMxNDRlMDFhNzg1NGMwNWZmNDJhM2I3M2RmNzBiNSIsImlhdCI6MTc1MDU5MDEwNn0.AgJBOiJhrZgSHcdboWb_EsCDGjcVTlKl5LD-Tfy-XL5Kz_GovZlq7Jc3-o0mmDK-aD2zkRVKo4ZyHUXoW3wccwFW5G1P3yyxjNU8zqHcn_VYUB7ukJhoRPUesXd9gXeTjGdXIwuQZZvOA487U8nrFXI6Ngid0p0YB6HNw5AiAURXjdHLqSQNEDbhKZqEM6VG_CgiYIBdguwyDMdK_Yc3Q9ZS2m8tppWWZeEVRwwNurC20Ub8IvtmwHflob_oW3e9cZo837N2N7x1Gy62PHmqHFdpQ__rwaaPhMh43PMJ7Ohh14PqRKQ25X7TpS6k1l30b2YCPmP3fp2J0FxnZUga5Q                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

@@ -38418,12 +38418,24 @@ Object.defineProperty(exports, "default", ({
     }
 }));
 var _interop_require_default = __webpack_require__(66705);
+var _interop_require_wildcard = __webpack_require__(83610);
 var _jsxruntime = __webpack_require__(70095);
-var _react = __webpack_require__(31399);
+var _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(31399));
 var _nativestack = __webpack_require__(64684);
 var _wrapauthunauth = /*#__PURE__*/ _interop_require_default._(__webpack_require__(13217));
 var Stack = (0, _nativestack.createNativeStackNavigator)();
 var WrapNavigationRemote = ()=>{
+    (0, _react.useEffect)(()=>{
+        var miniAppReact = _react.default;
+        var hostReact = globalThis.hostReact;
+        console.log('MINI APP REACT INSTANCE:', miniAppReact.version);
+        if (hostReact) {
+            console.log("--- KI\u1EC2M TRA SO S\xc1NH ---");
+            console.log("React c\u1EE7a Host v\xe0 Mini c\xf3 ph\u1EA3i l\xe0 m\u1ED9t kh\xf4ng?", hostReact === miniAppReact);
+        } else {
+            console.warn("Kh\xf4ng t\xecm th\u1EA5y hostReact tr\xean global scope!");
+        }
+    }, []);
     (0, _react.useEffect)(()=>{
         console.log('WrapNavigatio from remote');
     }, []);
