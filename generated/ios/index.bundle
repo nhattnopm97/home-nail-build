@@ -38502,6 +38502,7 @@ var _jsxruntime = __webpack_require__(70095);
 var _accountZustandStore = __webpack_require__(20881);
 var _authnavigation = /*#__PURE__*/ _interop_require_default._(__webpack_require__(19686));
 var _unauthnavigation = /*#__PURE__*/ _interop_require_default._(__webpack_require__(53127));
+console.log('WrapAuthAndUnAuthNavigator');
 var WrapAuthAndUnAuthNavigator = ()=>{
     var isLogin = (0, _accountZustandStore.useAccountZutandStore)().isLogin;
     return /*#__PURE__*/ (0, _jsxruntime.jsx)(_jsxruntime.Fragment, {
