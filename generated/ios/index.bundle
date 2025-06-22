@@ -38423,6 +38423,7 @@ var _jsxruntime = __webpack_require__(70095);
 var _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(31399));
 var _nativestack = __webpack_require__(64684);
 var _wrapauthunauth = /*#__PURE__*/ _interop_require_default._(__webpack_require__(13217));
+var _reactnative = __webpack_require__(3345);
 var Stack = (0, _nativestack.createNativeStackNavigator)();
 var WrapNavigationRemote = ()=>{
     (0, _react.useEffect)(()=>{
@@ -38439,13 +38440,18 @@ var WrapNavigationRemote = ()=>{
     (0, _react.useEffect)(()=>{
         console.log('WrapNavigatio from remote');
     }, []);
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
-        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
-            name: "wrap-auth-unauth",
-            component: _wrapauthunauth.default,
-            options: {
-                headerShown: false
-            }
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.View, {
+        style: {
+            flex: 1
+        },
+        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
+            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+                name: "wrap-auth-unauth",
+                component: _wrapauthunauth.default,
+                options: {
+                    headerShown: false
+                }
+            })
         })
     });
 };

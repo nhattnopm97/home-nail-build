@@ -193,6 +193,7 @@ var _jsxruntime = __webpack_require__(70095);
 var _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(31399));
 var _nativestack = __webpack_require__(64684);
 var _wrapauthunauth = /*#__PURE__*/ _interop_require_default._(__webpack_require__(13217));
+var _reactnative = __webpack_require__(3345);
 var Stack = (0, _nativestack.createNativeStackNavigator)();
 var WrapNavigationRemote = ()=>{
     (0, _react.useEffect)(()=>{
@@ -209,13 +210,18 @@ var WrapNavigationRemote = ()=>{
     (0, _react.useEffect)(()=>{
         console.log('WrapNavigatio from remote');
     }, []);
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
-        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
-            name: "wrap-auth-unauth",
-            component: _wrapauthunauth.default,
-            options: {
-                headerShown: false
-            }
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.View, {
+        style: {
+            flex: 1
+        },
+        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
+            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+                name: "wrap-auth-unauth",
+                component: _wrapauthunauth.default,
+                options: {
+                    headerShown: false
+                }
+            })
         })
     });
 };
@@ -433,4 +439,4 @@ var _default = ServiceScreenMiniApp;
 
 }),
 
-}]);//# sourceMappingURL=__federation_expose_CtnMini.chunk.bundle.map?platform=ios/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiYjM5M2RhZmVmYmIwZjZmY2M4ZjU0YTI5YjkyYTZjNDcxMGMxNDRlMDFhNzg1NGMwNWZmNDJhM2I3M2RmNzBiNSIsImlhdCI6MTc1MDU5MTAyNX0.Kne8wMV6EP6A2L1PMotUQG1SNmK2MSptWr7TWcvH2BQTw6bH1jl7xZI9f6Kgbwgm9k5I9RGHatTu5Fe5kCCxqr1vRdkQyvYzla4AoYQm2cfcShiJ5yBliHDEj5nSDByiAz6K78tG-7K2K4ejVAAt6fkHkhV4OpMOZvW9Xc0Dv4s5j1flUCZG6AoagdCop9y4UPOori2SO2Z3kptFTdY5GG9qJg44BKsaW_TMnDVJX_EuGDEae1tgp_fqZRH_6iV6NeNRGU-I3HTEaHy1hyAJnrqG_uSk8v4TSmcLHvb3J8oPuZwXIT-82RGZf6YxxnJUSlw_XVxh_gpa1MVulA2utw                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+}]);//# sourceMappingURL=__federation_expose_CtnMini.chunk.bundle.map?platform=ios/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiNjM0YzM5ODIyNWM2ODI4ODM4ZjliOTE0NDQ2NTk0YmVmYzNhZTQwMzEzYTdmOWI4NzhmMjU3ZTY0MTNhYTkxNCIsImlhdCI6MTc1MDU5MjU4Nn0.v-nc6wFcCFL2ceULxfdSdvkVqF2dNLGks4Bz59plU2SBdgd8W72S4s-epDW7rN09ItWWWIDgLmoV6UIITbMeMZGQvIggwg4C6M1TTyCnEq8yDaYjUxKHArcUDPIg0Kx-hBebZ1LRIXF2wMfOwVg8YukfM7ycjecgC35DGMdsYMYNKjow5I7tcPjbuSAQvfstVjusLvW1Tx6mMvgUwWrBcvkeGtNwX5Zb-5BRg8RC_BVUwUSWTrZaJmWcDnK5p2lxxTGr5xmOEmWGp8hWrcub7DIsQ-fWXlNT8bSifhOKY0YwHNTtaSdYD3Lq5OVl9ynT5iwrVjGnF9IQrpsDe2gDnw                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
