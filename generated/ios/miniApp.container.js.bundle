@@ -9199,7 +9199,7 @@ __webpack_require__.f.consumes = __webpack_require__.f.consumes || function() { 
 __webpack_require__.initializeExposesData = {
   moduleMap: {
   "./CtnMini": function() {
-return Promise.all(/*!  | __federation_expose_CtnMini */ [__webpack_require__.e("vendors-node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_c-81f9e7"), __webpack_require__.e("webpack_sharing_consume_default_react_react"), __webpack_require__.e("webpack_sharing_consume_default_react-navigation_native_react-navigation_native"), __webpack_require__.e("__federation_expose_CtnMini")]).then(function() { return function() { return __webpack_require__(/*! ./src/navigation/NavigationHaveNavigationContainer.tsx */ "./src/navigation/NavigationHaveNavigationContainer.tsx"); }; });
+return Promise.all(/*!  | __federation_expose_CtnMini */ [__webpack_require__.e("vendors-node_modules_swc_helpers_cjs__interop_require_wildcard_cjs-node_modules_swc_helpers_c-81f9e7"), __webpack_require__.e("webpack_sharing_consume_default_react_react"), __webpack_require__.e("webpack_sharing_consume_default_react-navigation_native_react-navigation_native"), __webpack_require__.e("__federation_expose_CtnMini")]).then(function() { return function() { return __webpack_require__(/*! ./src/navigation/index.tsx */ "./src/navigation/index.tsx"); }; });
 },
 },
   shareScope: "default",
