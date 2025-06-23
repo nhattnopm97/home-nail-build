@@ -35,6 +35,47 @@ var useAccountZutandStore = (0, _zustand.create)((set, get)=>_object_spread_prop
 
 
 }),
+"./src/navigation/NavigationHaveNavigationContainer.tsx": 
+/*!**************************************************************!*\
+  !*** ./src/navigation/NavigationHaveNavigationContainer.tsx ***!
+  \**************************************************************/
+(function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(/*! @swc/helpers/_/_interop_require_default */ "./node_modules/@swc/helpers/cjs/_interop_require_default.cjs");
+var _jsxruntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+var _react = __webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react");
+var _nativestack = __webpack_require__(/*! @react-navigation/native-stack */ "webpack/sharing/consume/default/@react-navigation/native-stack/@react-navigation/native-stack");
+var _native = __webpack_require__(/*! @react-navigation/native */ "webpack/sharing/consume/default/@react-navigation/native/@react-navigation/native");
+var _ = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! . */ "./src/navigation/index.tsx"));
+var Stack = (0, _nativestack.createNativeStackNavigator)();
+var WrapNavigationRemote2 = ()=>{
+    (0, _react.useEffect)(()=>{
+        console.log('WrapNavigation container from remote');
+    }, []);
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_native.NavigationContainer, {
+        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
+            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+                name: "MiniApp",
+                component: _.default,
+                options: {
+                    headerShown: false
+                }
+            })
+        })
+    });
+};
+var _default = WrapNavigationRemote2;
+
+
+}),
 "./src/navigation/auth-navigation/index.tsx": 
 /*!**************************************************!*\
   !*** ./src/navigation/auth-navigation/index.tsx ***!
@@ -89,40 +130,22 @@ Object.defineProperty(exports, "default", ({
     }
 }));
 var _interop_require_default = __webpack_require__(/*! @swc/helpers/_/_interop_require_default */ "./node_modules/@swc/helpers/cjs/_interop_require_default.cjs");
-var _interop_require_wildcard = __webpack_require__(/*! @swc/helpers/_/_interop_require_wildcard */ "./node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs");
 var _jsxruntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-var _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react"));
+var _react = __webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react");
 var _nativestack = __webpack_require__(/*! @react-navigation/native-stack */ "webpack/sharing/consume/default/@react-navigation/native-stack/@react-navigation/native-stack");
 var _wrapauthunauth = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! ./wrap-auth-unauth */ "./src/navigation/wrap-auth-unauth/index.tsx"));
-var _reactnative = __webpack_require__(/*! react-native */ "webpack/sharing/consume/default/react-native/react-native");
 var Stack = (0, _nativestack.createNativeStackNavigator)();
 var WrapNavigationRemote = ()=>{
     (0, _react.useEffect)(()=>{
-        var miniAppReact = _react.default;
-        var hostReact = globalThis.hostReact;
-        console.log('MINI APP REACT INSTANCE:', miniAppReact.version);
-        if (hostReact) {
-            console.log("--- KI\u1EC2M TRA SO S\xc1NH ---");
-            console.log("React c\u1EE7a Host v\xe0 Mini c\xf3 ph\u1EA3i l\xe0 m\u1ED9t kh\xf4ng?", hostReact === miniAppReact);
-        } else {
-            console.warn("Kh\xf4ng t\xecm th\u1EA5y hostReact tr\xean global scope!");
-        }
-    }, []);
-    (0, _react.useEffect)(()=>{
         console.log('WrapNavigatio from remote');
     }, []);
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.View, {
-        style: {
-            flex: 1
-        },
-        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
-            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
-                name: "wrap-auth-unauth",
-                component: _wrapauthunauth.default,
-                options: {
-                    headerShown: false
-                }
-            })
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
+        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+            name: "wrap-auth-unauth",
+            component: _wrapauthunauth.default,
+            options: {
+                headerShown: false
+            }
         })
     });
 };
@@ -181,7 +204,6 @@ var _jsxruntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/r
 var _accountZustandStore = __webpack_require__(/*! ../../store/accountZustandStore */ "./src/store/accountZustandStore.ts");
 var _authnavigation = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! ../auth-navigation */ "./src/navigation/auth-navigation/index.tsx"));
 var _unauthnavigation = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! ../un-auth-navigation */ "./src/navigation/un-auth-navigation/index.tsx"));
-console.log('WrapAuthAndUnAuthNavigator');
 var WrapAuthAndUnAuthNavigator = ()=>{
     var isLogin = (0, _accountZustandStore.useAccountZutandStore)().isLogin;
     return /*#__PURE__*/ (0, _jsxruntime.jsx)(_jsxruntime.Fragment, {
