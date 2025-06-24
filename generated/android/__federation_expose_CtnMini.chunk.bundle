@@ -35,6 +35,47 @@ var useAccountZutandStore = (0, _zustand.create)((set, get)=>_object_spread_prop
 
 
 }),
+"./src/navigation/NavigationHaveNavigationContainer.tsx": 
+/*!**************************************************************!*\
+  !*** ./src/navigation/NavigationHaveNavigationContainer.tsx ***!
+  \**************************************************************/
+(function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(/*! @swc/helpers/_/_interop_require_default */ "./node_modules/@swc/helpers/cjs/_interop_require_default.cjs");
+var _jsxruntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+var _react = __webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react");
+var _nativestack = __webpack_require__(/*! @react-navigation/native-stack */ "webpack/sharing/consume/default/@react-navigation/native-stack/@react-navigation/native-stack");
+var _native = __webpack_require__(/*! @react-navigation/native */ "webpack/sharing/consume/default/@react-navigation/native/@react-navigation/native");
+var _ = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! . */ "./src/navigation/index.tsx"));
+var Stack = (0, _nativestack.createNativeStackNavigator)();
+var WrapNavigationRemote2 = ()=>{
+    (0, _react.useEffect)(()=>{
+        console.log('WrapNavigation container from remote');
+    }, []);
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_native.NavigationContainer, {
+        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Navigator, {
+            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Stack.Screen, {
+                name: "MiniApp",
+                component: _.default,
+                options: {
+                    headerShown: false
+                }
+            })
+        })
+    });
+};
+var _default = WrapNavigationRemote2;
+
+
+}),
 "./src/navigation/auth-navigation/index.tsx": 
 /*!**************************************************!*\
   !*** ./src/navigation/auth-navigation/index.tsx ***!
